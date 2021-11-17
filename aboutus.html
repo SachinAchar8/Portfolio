@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html oncontextmenu="return false">
+ <head>
+  <style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  background-size: cover;
+  background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center;
+  overflow-x: hidden;
+	overflow-y: hidden;
+
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 20%;
+  margin-bottom: 15px;
+  padding: 0 0px;
+}
+
+.card {
+  box-shadow: 0 4px 25px 0 rgba(94, 86, 86, 0);
+  margin: 0px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.container {
+  padding: 0 0px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: rgb(204, 198, 198);
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+</style>
+<title>Nitin Cuisines</title>
+	<link rel = "icon" href ="images/logo.jpg" type = "image/x-icon"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1" />
+	<link rel="stylesheet" type="text/css" href="css/style.css">	
+  
+  <link href="https://fonts.googleapis.com/css?family=Flamenco" rel="stylesheet">    
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <header>    
+      <nav>
+			<div class="row clearfix">
+				<img src="images/logo.jpg" class="logo">
+				<ul class="main-nav animated slideInDown" id="check-class">
+					<li><a href="index.html">HOME</a></li>
+					<li><a href="product.html">PRODUCTS</a></li>
+					<li><a href="aboutus.html">ABOUT US</a></li>
+					<li><a href="contact.html">CONTACT US </a></li>	
+				</ul>
+        <a href="#" class="mobile-icon"  onclick="slideshow()"> <i class="fa fa-bars"></i> </a>
+			</div>
+      </nav>
+<div>
+  <h3><center><big>About Us Page</big></center></h3>
+  <h3><p style="text-align:center;">Nitin Cuisines is in to Food and Automation industry. It was developed with the purpose to provide automated services to our vendors, Restaurants, Working People to make life easier and worry free.
+    Existence of Automation has made life easier and more innovative. With ongoing transformation around the corners of our country and globally we need to adapt the developing changes in technology to generate more output with the help of Human interaction.</p></h3><br>
+    <h3><p style="margin-left:35%;">We manufacture wide range of products like:<br>
+                                     >Automated Pani-Puri Dispenser,<br>
+                                     >Cocktail vending machine,<br>
+                                     >Restaurant Automation,<br>
+                                     >Home Automation,<br>
+                                     >Customized Products based on your requirements.</p></h3>
+ </div><br>
+
+<h3 style="text-align:center"><big>Our Team</big></h3>
+
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="images/mithun 4.png" alt="Dr.Mithun kumar" style="margin-left:34%;width:35%;margin-top:4%;">
+      <div class="container">
+        <h3><center>Dr.Mithun kumar</center></h3>
+        <p class="title"><center>Entrepreneur</center></p>
+        <p><center>(B.D.S ,Master's in public health,Florida,U.S.A)</center></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="images/nitin24.png" alt="Nitin Vishalakshi" style="margin-left:34%;width:35%;margin-top:1%">
+      <div class="container">
+        <h3><center>Nitin Vishalakshi</center></h3>
+        <p class="title"><center>Entrepreneur & Automation Engg</center></p>
+        <p><center>(B.E in E&C Engg & Robotics trainer)</center></p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <img src="images/akshata final000.png" alt="Akshata Shetty" style="margin-left:34%;width:35%;margin-top:6%;">
+      <div class="container">
+        <h3><center>Akshata Shetty</center></h3>
+        <p class="title"><center>Digital marketing & accounts</center></p>
+        <p><center>(Bachelor's in accounting and finance)</center></p>
+      </div>
+    </div>    
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="images/raj20.png" alt="Raj Acharya" style="margin-left:34%;width:35%;margin-top:6%;">
+      <div class="container">
+        <h3><center>Raj Acharya</center></h3>
+        <p class="title"><center>Research & development engineer</center></p>
+        <p><center>(B.E in Mechatronics Engg)</center></p>
+      </div>
+    </div>    
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="images/ketan final 1.png" alt="Ketan Panchal" style="margin-left:34%;width:35%;margin-top:6%;">
+      <div class="container">
+        <h3><center>Ketan Panchal</center></h3>
+        <p class="title"><center>Packaging expert</center></p>
+        <p><center>(P.G in packaging from Indian institute of packaging, Mumbai)</center></p>
+      </div>
+    </div>    
+  </div>
+</div>
+
+<div class="main-content-header2">
+  <h2><center>Download Nitin cuisines app for ordering food from playstore</center></h2>      
+  <center><a href="https://play.google.com/store/apps/details?id=com.facebook.katana&hl=en"><input id="image" type="image" src="images/google-play-badge.png" alt="Login" width="200" height="70"></a></center>
+</div>
+
+</header>
+<script type="text/javascript">
+		
+  function slideshow(){
+     var x = document.getElementById('check-class');
+     if(x.style.display === "none"){
+       x.style.display="block";
+     }else{
+       x.style.display="none";
+     }
+  }	
+
+</script>
+</body>
+</html>

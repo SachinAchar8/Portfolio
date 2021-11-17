@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html oncontextmenu="return false">
+<head>
+	<style>
+		img {
+		  float: right;
+		}
+		body{overflow-x: hidden;
+	    overflow-y: hidden;}
+		</style>
+
+	<title>Nitin Cuisines</title>
+	<link rel = "icon" href ="images/logo.jpg"  type = "image/x-icon"> 
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1" />
+	<link rel="stylesheet" type="text/css" href="css/style.css">	
+	<link rel="stylesheet" href="buttonanim.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Flamenco" rel="stylesheet">    
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+</head>
+<body>
+
+	<header>
+		
+			<div class="row clearfix">
+				<img src="images/logo.png" class="logo">
+				<ul class="main-nav animated slideInDown" id="check-class">
+					<li><a href="index.html">HOME</a></li>
+					<li><a href="product.html">PRODUCTS</a></li>
+					<li><a href="aboutus.html">ABOUT US</a></li>
+					<li><a href="contact.html">CONTACT US </a></li>	
+				</ul>
+				<a href="#" class="mobile-icon"  onclick="slideshow()"> <i class="fa fa-bars"></i> </a>
+			</div>
+		
+<br>
+		<h1><span class="colorchange"><center>WELCOME TO NITIN CUISINES FOOD AUTOMATION TECHNOLOGY.</center></span></h1>
+		<br>
+	
+		<div>
+			<img class="responsive" src="images/IMG20200730191837.jpg" style="width:260px;height:260px;margin-right:10%;">
+			<h2><p style="margin-left:20%;margin-right:50%;">Automation in food industry have emerged since decades.The main motive behind this concept is to innovate machines which provides hygienic services, Time management, more productivity, less human efforts etc</center></p></h2>
+		</div>
+
+
+		<div class="main-content-header">
+			<div class="login-box">
+				<h2><center>Download Nitin cuisines app from playstore</center></h2>
+				<form action="https://play.google.com/store/apps/details?id=com.facebook.katana&hl=en">
+				  <center><a>
+					<span></span>
+					<span></span>
+					<span></span>
+					<span></span>
+					<input id="image" type="image" src="images/new logo.png" alt="Login" width="135" height="50">
+				  </a></center>
+				</form>
+			  </div>                    
+		</div>
+
+	</header>
+
+	<script type="text/javascript">
+		
+		function slideshow(){
+			 var x = document.getElementById('check-class');
+			 if(x.style.display === "none"){
+			 	x.style.display="block";
+			 }else{
+			 	x.style.display="none";
+			 }
+		}	
+
+	</script>
+
+</body>
+</html>

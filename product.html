@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html oncontextmenu="return false">
+<head>
+	<style>
+		img {
+		  float: right;
+		}
+		body{overflow-x: hidden;
+	    overflow-y: hidden;}
+		</style>
+		<style>
+			* {
+			  box-sizing: border-box;
+			}
+			
+			.column {
+			  float: left;
+			  width: 33.33%;
+			  padding: 5px;
+			}
+			
+			/* Clearfix (clear floats) */
+			.row::after {
+			  content: "";
+			  clear: both;
+			  display: table;
+			}
+			</style>
+
+<title>Nitin Cuisines</title>
+<link rel = "icon" href ="images/logo.jpg"   type = "image/x-icon"> 
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1" />
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Flamenco" rel="stylesheet">    
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+</head>
+<body>
+
+	<header>
+		<nav>
+			<div class="row clearfix">
+				<img src="images/logo.png" class="logo">
+
+				<ul class="main-nav animated slideInDown" id="check-class">
+					<li><a href="index.html">HOME</a></li>
+					<li><a href="product.html">PRODUCTS</a></li>
+					<li><a href="aboutus.html">ABOUT US</a></li>
+					<li><a href="contact.html">CONTACT US </a></li>
+	
+				</ul>
+				<a href="#" class="mobile-icon"  onclick="slideshow()"> <i class="fa fa-bars"></i> </a>
+			</div>
+        </nav>
+		<h1><span class="colorchange"><center>NITIN CUISINES</center></span></h1>
+
+		<div> 
+		<div class="row">
+			<div class="column">
+				<h2><center>Coffee Vending Machine</h2><img class="responsive" src="images/b1846672-4218-4034-8ce4-dd0fd3989b97.png"  style="width:280px;height:280px;margin-right:15%"></center>
+			  </div>
+			  <div class="column">
+				<h2><center>Sensor Based Panipuri Machine</h2><img class="responsive" src="images/machine png image.png" style="width:260px;height:260px;margin-right:10%"></center>
+			  </div>
+			<div class="column">
+				<h2><center>Cocktail machine</h2><img class="responsive" src="images/cocktail machine.png"  style="margin-top:8%;width:260px;height:250px;margin-right:15%"></center>
+			</div>			
+		  </div> 		
+	</div><br>
+	
+	<div class="main-content-header1">
+		<h2><center>Download Nitin cuisines app for ordering food from playstore</center></h2>      
+		<center><a href="https://play.google.com/store/apps/details?id=com.facebook.katana&hl=en"><input id="image" type="image" src="images/google-play-badge.png" alt="Login" width="200" height="70"></a></center>
+	</div>
+
+	</header>
+
+	<script type="text/javascript">
+		
+		function slideshow(){
+			 var x = document.getElementById('check-class');
+			 if(x.style.display === "none"){
+			 	x.style.display="block";
+			 }else{
+			 	x.style.display="none";
+			 }
+		}	
+
+	</script>
+
+</body>
+</html>
